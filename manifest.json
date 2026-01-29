@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube URL Extractor",
+  "version": "1.0",
+  "description": "YouTubeの動画URLを改行区切りで抽出・コピーします",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
